@@ -1,0 +1,211 @@
+<HTML>
+<head>
+    <title></title>
+ <style type="text/css">
+    html{
+      text-align: center;
+      font-family: 'Lato', sans-serif;
+      background: -webkit-radial-gradient(circle,#F0F9EA,#DEE5E5);
+background: -o-radial-gradient(circle,#F0F9EA,#DEE5E5);
+background: -moz-radial-gradient(circle,#F0F9EA,#DEE5E5);
+background: radial-gradient(circle,#F0F9EA, #DEE5E5);
+    }
+    h1{
+      text-align: center;
+    }
+    h2{
+      text-align:center;
+      color:#FF686B;
+  
+    }
+    .right{
+      width: 100%;
+      padding-right: 9%;
+      padding-left:9%;
+      float: left;
+    }
+    .warn{
+margin-top: 49%;
+      width: 100%;
+    }
+    table{
+      float: left;
+      width: 24%;
+      margin-right:2%; 
+      margin-left:2%;
+      margin-top: 4%;
+      box-sizing: border-box;
+      border-radius: 7px; 
+      border:0.1px solid #C8C8C8;
+      color: gray;
+
+
+    }
+    #dist{
+      margin-left: 22%;
+      margin-right: 22%;
+      width: 36%;
+    }
+
+    table:hover{
+        box-shadow: 0 0 19px 0px
+        rgba(0,0,0,0.36);
+      }
+    td{
+      padding: 10px;
+      height: 20px;
+    }
+    .sname{
+      color: #3D1C17;
+      background-color: #2AB7CA;
+      border-radius: 7px 7px 0 0 ;
+      padding: 15px;
+    }
+    .snamed{
+      color:#3D1C17;
+      background-color: #FFB200;
+      border-radius: 7px 7px 0 0;
+      padding: 15px;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <h1>Sensor to Node MCU Web Server</h1>
+    <div class="right">
+    <table id="dist">
+      <tr>
+        <th class="snamed" colspan="8">Distance</th>
+      </tr>
+      <tr>
+        <th>dist1</th>
+        <td id="dist1"></td>
+        <th>dist3</th>
+        <td id="dist3"></td>
+        <th>dist2</th>
+        <td id="dist2"></td>
+        <th>dist4</th>
+        <td id="dist4"></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th class="sname" colspan="2">Sensor1</th>
+      </tr>
+      <tr>
+        <th>humd1</th>
+        <td id="humd1"></td>
+      </tr>
+      <tr>
+        <th>temp1</th>
+        <td id="temp1"></td>
+
+      </tr>
+      <tr>
+        <th>pres1</th>
+        <td id="pres1"></td>
+      </tr>
+
+    </table>
+    <table>
+      <tr>
+        <th class="sname" colspan="2">Sensor2</th>
+      </tr>
+      <tr>
+        <th>humd2</th>
+        <td id="humd2"></td>
+      </tr>
+      <tr>
+        <th>temp2</th>
+        <td id="temp2"></td>
+
+      </tr>
+      <tr>
+        <th>pres2</th>
+        <td id="pres2"></td>
+      </tr>
+
+    </table>
+    <table>
+      <tr>
+        <th class="sname" colspan="2">Sensor3</th>
+      </tr>
+      <tr>
+        <th>humd3</th>
+        <td id="humd3"></td>
+      </tr>
+      <tr>
+        <th>temp3</th>
+        <td id="temp3"></td>
+
+      </tr>
+      <tr>
+        <th>pres3</th>
+        <td id="pres3"></td>
+      </tr>
+
+    </table>
+    <table>
+      <tr>
+        <th class="sname" colspan="2">Sensor4</th>
+      </tr>
+      <tr>
+        <th>humd4</th>
+        <td id="humd4"></td>
+      </tr>
+      <tr>
+        <th>temp4</th>
+        <td id="temp4"></td>
+
+      </tr>
+      <tr>
+        <th>pres4</th>
+        <td id="pres4"></td>
+      </tr>
+
+    </table>
+    <table>
+      <tr>
+        <th class="sname" colspan="2">Sensor5</th>
+      </tr>
+      <tr>
+        <th>humd5</th>
+        <td id="humd5"></td>
+      </tr>
+      <tr>
+        <th>temp5</th>
+        <td id="temp5"></td>
+
+      </tr>
+      <tr>
+        <th>pres5</th>
+        <td id="pres5"></td>
+      </tr>
+
+    </table>
+    <table>
+      <tr>
+        <th class="sname" colspan="2">Sensor6</th>
+      </tr>
+      <tr>
+        <th>humd6</th>
+        <td id="humd6"></td>
+      </tr>
+      <tr>
+        <th>temp6</th>
+        <td id="temp6"></td>
+
+      </tr>
+      <tr>
+        <th>pres6</th>
+        <td id="pres6"></td>
+      </tr>
+
+    </table>
+    
+    </div>
+    <div class="warn"><h2 id="warning"></h2></div>
+        
+        </div>
